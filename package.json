@@ -18,5 +18,8 @@
     "karma-typescript": "3.0.9",
     "ts-node": "^4.1.0",
     "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "puppeteer": "^1.0.0"
   }
 }
