@@ -16,10 +16,8 @@
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^1.1.1",
     "karma-typescript": "3.0.9",
+    "puppeteer": "^1.0.0",
     "ts-node": "^4.1.0",
     "typescript": "^2.6.2"
-  },
-  "dependencies": {
-    "puppeteer": "^1.0.0"
   }
 }
