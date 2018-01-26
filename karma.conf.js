@@ -1,14 +1,14 @@
 process.env.CHROME_BIN = require('puppeteer').executablePath();
 module.exports = function (config) {
   config.set({
-    frameworks: ["jasmine", "karma-typescript"],
+    frameworks: ['jasmine', 'karma-typescript'],
     files: [
-      "src/**/*.ts" // *.tsx for React Jsx
+      'src/**/*.ts'
     ],
     preprocessors: {
-      "**/*.ts": "karma-typescript" // *.tsx for React Jsx
+      '**/*.ts': 'karma-typescript'
     },
-    reporters: ["progress", "karma-typescript"],
+    reporters: ['progress', 'karma-typescript'],
     browsers: ['ChromeHeadless']
   });
 };
