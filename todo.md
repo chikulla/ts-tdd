@@ -1,0 +1,15 @@
+- [ ] $5 + 10CHF = $ 10
+- [x] $5 * 2 = $10
+- [x] make amount private
+- [x] side effects on Dollar
+- [ ] round off Money
+- [x] equals()
+- [ ] hashCode()
+- [ ] compare with null
+- [ ] compare different objects
+- [x] 5CHF * 2 = 10CHF
+- [ ] Dollar/Franc duplication
+- [ ] generalize equals
+- [ ] generalize times
+- [x] compare Franc/Dollar
+- [ ] a concept of Concurrency
